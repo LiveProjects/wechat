@@ -1,0 +1,1084 @@
+Array
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('200','300','','1','1.01.04.002','201506020001021','2015-06-09 21:03:47','2015-06-09 21:03:47','1','1')
+Array
+success
+Array
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FStatus) VALUES ('1','02.195','2015-06-02 19:03:47','201506020001021','1','0001','1','1','1')
+Array
+success
+Array
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('200','300','','1','1.01.04.002','201506020001022','2015-06-09 21:24:46','2015-06-09 21:24:46','1','1')
+Array
+success
+Array
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FRemark,FStatus) VALUES ('1','01.011','2015-06-02 19:24:46','201506020001022','1','0001','1','1','移动测试','1')
+Array
+success
+2015-06-02 22:05:41
+update t_zhsp_orderMain set FStatus =0,FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506020001022'
+2015-06-02 22:05:41
+success
+2015-06-02 22:05:41
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506020001022'
+2015-06-02 22:05:41
+success
+2015-06-02 22:06:05
+update t_zhsp_orderMain set FSource = 2,FDataFlag=1,FUpdateFlag=1,FStatus = 0 where FOrderNumber = '201506020001022'
+2015-06-02 22:06:05
+success
+2015-06-02 22:06:05
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201506020001022'
+2015-06-02 22:06:05
+success
+2015-06-02 23:41:46
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('100','300','','1','1.01.04.002','201506020001023','2015-06-10 01:41:46','2015-06-10 01:41:46','1','1')
+2015-06-02 23:41:46
+success
+2015-06-02 23:41:46
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('300','400','好','1','1.01.04.003','201506020001023','2015-06-10 01:41:46','2015-06-10 01:41:46','1','1')
+2015-06-02 23:41:46
+success
+2015-06-02 23:41:46
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('400','500','好','1','1.01.04.009','201506020001023','2015-06-10 01:41:46','2015-06-10 01:41:46','1','1')
+2015-06-02 23:41:46
+success
+2015-06-02 23:41:46
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FRemark,FStatus) VALUES ('1','01.011','2015-06-02 23:41:46','201506020001023','1','0001','1','1','测试晚上','1')
+2015-06-02 23:41:46
+success
+2015-06-03 08:36:09
+update t_zhsp_orderMain set FStatus =0,FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506020001010'
+2015-06-03 08:36:09
+success
+2015-06-03 08:36:09
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506020001010'
+2015-06-03 08:36:09
+success
+2015-06-03 10:19:12
+INSERT INTO t_zhsp_OrderSub(PHPSESSID,FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('9a70b3da8d2f44099779dbd673290279','500','50','辛','1','1.01.02.004','201506030001001','2015-06-10 12:19:12','2015-06-10 12:19:12','1','1')
+2015-06-03 10:19:12
+fail
+2015-06-03 10:21:31
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('200','20','新的','1','1.01.02.003','201506030001001','2015-06-10 12:21:31','2015-06-10 12:21:31','1','1')
+2015-06-03 10:21:31
+success
+2015-06-03 10:21:31
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('20','2','新的','1','1.01.08.003','201506030001001','2015-06-10 12:21:31','2015-06-10 12:21:31','1','1')
+2015-06-03 10:21:31
+success
+2015-06-03 10:21:31
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FStatus) VALUES ('1','02.034','2015-06-03 10:21:31','201506030001001','1','0001','1','1','1')
+2015-06-03 10:21:31
+success
+2015-06-03 10:22:13
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('50','5','22','1','1.01.08.004','201506030001002','2015-06-10 12:22:13','2015-06-10 12:22:13','1','1')
+2015-06-03 10:22:13
+success
+2015-06-03 10:22:13
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FStatus) VALUES ('1','02.195','2015-06-03 10:22:13','201506030001002','1','0001','1','1','1')
+2015-06-03 10:22:13
+success
+2015-06-03 10:22:46
+update t_zhsp_orderMain set FStatus =0,FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506030001002'
+2015-06-03 10:22:46
+success
+2015-06-03 10:22:46
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506030001002'
+2015-06-03 10:22:46
+success
+2015-06-03 10:23:06
+update t_zhsp_orderMain set FSource = 2,FDataFlag=1,FUpdateFlag=1,FStatus = 0 where FOrderNumber = '201506030001002'
+2015-06-03 10:23:06
+success
+2015-06-03 10:23:06
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201506030001002'
+2015-06-03 10:23:06
+success
+2015-06-03 10:24:51
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('2222','56','33','1','1.01.08.001','201506030001003','2015-06-10 12:24:51','2015-06-10 12:24:51','1','1')
+2015-06-03 10:24:51
+success
+2015-06-03 10:24:51
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FRemark,FStatus) VALUES ('2','01.001','2015-06-03 10:24:51','201506030001003','1','0001','1','1','33','0')
+2015-06-03 10:24:51
+success
+2015-06-03 10:27:45
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('300','300','300','1','1.01.02.002','201506030001004','2015-06-10 12:27:45','2015-06-10 12:27:45','1','1')
+2015-06-03 10:27:45
+success
+2015-06-03 10:27:45
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('200','200','200','1','1.01.08.006','201506030001004','2015-06-10 12:27:45','2015-06-10 12:27:45','1','1')
+2015-06-03 10:27:45
+success
+2015-06-03 10:27:45
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FRemark,FStatus) VALUES ('1','02.073','2015-06-03 10:27:45','201506030001004','1','0001','1','1','22','1')
+2015-06-03 10:27:45
+success
+2015-06-03 10:36:16
+update t_zhsp_orderMain set FStatus =0,FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506030001004'
+2015-06-03 10:36:16
+success
+2015-06-03 10:36:16
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506030001004'
+2015-06-03 10:36:16
+success
+2015-06-03 10:36:42
+update t_zhsp_OrderMain set FRemark='22 ',FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201506030001004'
+2015-06-03 10:36:42
+success
+2015-06-03 10:36:42
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201506030001004'
+2015-06-03 10:36:42
+success
+2015-06-03 10:37:00
+update t_zhsp_orderMain set FSource = 1,FDataFlag=1,FUpdateFlag=1,FStatus = 1 where FOrderNumber = '201506030001004'
+2015-06-03 10:37:00
+success
+2015-06-03 10:37:00
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201506030001004'
+2015-06-03 10:37:00
+success
+2015-06-03 12:02:19
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('300','400','','1','1.01.04.002','201506030001005','2015-06-10 14:02:19','2015-06-10 14:02:19','1','1')
+2015-06-03 12:02:19
+success
+2015-06-03 12:02:19
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FStatus) VALUES ('1','02.195','2015-06-03 12:02:19','201506030001005','1','0001','1','1','1')
+2015-06-03 12:02:19
+success
+2015-06-03 15:01:25
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('200','300','','1','1.01.04.002','201506030001006','2015-06-10 17:01:25','2015-06-10 17:01:25','1','1')
+2015-06-03 15:01:25
+success
+2015-06-03 15:01:25
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FRemark,FStatus) VALUES ('1','02.034','2015-06-03 15:01:25','201506030001006','1','0001','1','1','测试中午','1')
+2015-06-03 15:01:25
+success
+2015-06-03 15:30:32
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('300','400','订单1','1','1.01.12.004','201506030001007','2015-06-10 17:30:32','2015-06-10 17:30:32','1','1')
+2015-06-03 15:30:32
+success
+2015-06-03 15:30:32
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('300','300','订单2','1','1.01.04.009','201506030001007','2015-06-10 17:30:32','2015-06-10 17:30:32','1','1')
+2015-06-03 15:30:32
+success
+2015-06-03 15:30:32
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FRemark,FStatus) VALUES ('1','02.011','2015-06-03 15:30:32','201506030001007','1','0001','1','1','科大测试','1')
+2015-06-03 15:30:32
+success
+2015-06-03 16:19:51
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('100','100','订单一','1','1.01.04.009','201506030001008','2015-06-10 18:19:51','2015-06-10 18:19:51','1','1')
+2015-06-03 16:19:51
+success
+2015-06-03 16:19:51
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('300','400','订单2','1','1.01.01.002','201506030001008','2015-06-10 18:19:51','2015-06-10 18:19:51','1','1')
+2015-06-03 16:19:51
+success
+2015-06-03 16:19:51
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FRemark,FStatus) VALUES ('1','01.011','2015-06-03 16:19:51','201506030001008','1','0001','1','1','办公室测试','1')
+2015-06-03 16:19:51
+success
+2015-06-03 16:30:46
+update t_zhsp_orderMain set FStatus =0,FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506030001008'
+2015-06-03 16:30:46
+success
+2015-06-03 16:30:46
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506030001008'
+2015-06-03 16:30:46
+success
+2015-06-03 16:33:36
+update t_zhsp_orderMain set FSource = 2,FDataFlag=1,FUpdateFlag=1,FStatus = 0 where FOrderNumber = '201506030001008'
+2015-06-03 16:33:36
+success
+2015-06-03 16:33:36
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201506030001008'
+2015-06-03 16:33:36
+success
+2015-06-03 16:34:19
+update t_zhsp_orderMain set FStatus =0,FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506030001007'
+2015-06-03 16:34:19
+success
+2015-06-03 16:34:19
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506030001007'
+2015-06-03 16:34:19
+success
+2015-06-03 16:35:33
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('100','300','','1','1.01.04.008','201506030001009','2015-06-10 18:35:33','2015-06-10 18:35:33','1','1')
+2015-06-03 16:35:33
+success
+2015-06-03 16:35:33
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FRemark,FStatus) VALUES ('1','02.073','2015-06-03 16:35:33','201506030001009','1','0001','1','1','室内弱信号测试','1')
+2015-06-03 16:35:33
+success
+2015-06-03 16:38:42
+update t_zhsp_orderMain set FSource = 1,FDataFlag=1,FUpdateFlag=1,FStatus = 1 where FOrderNumber = '201506030001007'
+2015-06-03 16:38:42
+success
+2015-06-03 16:38:42
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201506030001007'
+2015-06-03 16:38:42
+success
+2015-06-03 16:59:41
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('200','400','','1','1.01.04.002','201506030001010','2015-06-10 18:59:41','2015-06-10 18:59:41','1','1')
+2015-06-03 16:59:41
+success
+2015-06-03 16:59:41
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FRemark,FStatus) VALUES ('1','02.103','2015-06-03 16:59:41','201506030001010','1','0001','1','1','弱信号测试2','1')
+2015-06-03 16:59:41
+success
+2015-06-03 17:03:25
+update t_zhsp_orderMain set FStatus =0,FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506030001010'
+2015-06-03 17:03:25
+success
+2015-06-03 17:03:25
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506030001010'
+2015-06-03 17:03:25
+success
+2015-06-03 17:03:46
+update t_zhsp_orderMain set FSource = 1,FDataFlag=1,FUpdateFlag=1,FStatus = 1 where FOrderNumber = '201506030001010'
+2015-06-03 17:03:46
+success
+2015-06-03 17:03:46
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201506030001010'
+2015-06-03 17:03:46
+success
+2015-06-03 17:04:43
+update t_zhsp_orderMain set FStatus =0,FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506030001010'
+2015-06-03 17:04:43
+success
+2015-06-03 17:04:43
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506030001010'
+2015-06-03 17:04:43
+success
+2015-06-03 17:05:08
+update t_zhsp_orderMain set FSource = 1,FDataFlag=1,FUpdateFlag=1,FStatus = 1 where FOrderNumber = '201506030001010'
+2015-06-03 17:05:08
+success
+2015-06-03 17:05:08
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201506030001010'
+2015-06-03 17:05:08
+success
+2015-06-03 17:11:33
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('200','400','测试哈哈哈哈哈哈哈哈哈哈哈呵呵','1','1.01.02.002','201506030001011','2015-06-10 19:11:33','2015-06-10 19:11:33','1','1')
+2015-06-03 17:11:33
+success
+2015-06-03 17:11:33
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FRemark,FStatus) VALUES ('1','02.016','2015-06-03 17:11:33','201506030001011','1','0001','1','1','弱信号测试3','1')
+2015-06-03 17:11:33
+success
+2015-06-03 17:42:01
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('200','300','子订单1','1','1.01.10.012','201506030001012','2015-06-10 19:42:01','2015-06-10 19:42:01','1','1')
+2015-06-03 17:42:01
+success
+2015-06-03 17:42:01
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('200','200','子订单2','1','1.01.05.007','201506030001012','2015-06-10 19:42:01','2015-06-10 19:42:01','1','1')
+2015-06-03 17:42:01
+success
+2015-06-03 17:42:01
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('300','300','子订单3','1','1.01.04.009','201506030001012','2015-06-10 19:42:01','2015-06-10 19:42:01','1','1')
+2015-06-03 17:42:01
+success
+2015-06-03 17:42:01
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FRemark,FStatus) VALUES ('1','02.089','2015-06-03 17:42:01','201506030001012','1','0001','1','1','弱信号测试4','1')
+2015-06-03 17:42:01
+success
+2015-06-03 20:34:49
+update t_zhsp_orderMain set FStatus =0,FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506030001012'
+2015-06-03 20:34:49
+success
+2015-06-03 20:34:49
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506030001012'
+2015-06-03 20:34:49
+success
+2015-06-03 20:35:05
+update t_zhsp_orderMain set FSource = 1,FDataFlag=1,FUpdateFlag=1,FStatus = 1 where FOrderNumber = '201506030001012'
+2015-06-03 20:35:05
+success
+2015-06-03 20:35:05
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201506030001012'
+2015-06-03 20:35:05
+success
+2015-06-03 20:35:50
+update t_zhsp_orderMain set FStatus =0,FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506030001012'
+2015-06-03 20:35:50
+success
+2015-06-03 20:35:50
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506030001012'
+2015-06-03 20:35:50
+success
+2015-06-03 20:37:29
+update t_zhsp_orderMain set FSource = 1,FDataFlag=1,FUpdateFlag=1,FStatus = 1 where FOrderNumber = '201506030001012'
+2015-06-03 20:37:29
+success
+2015-06-03 20:37:29
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201506030001012'
+2015-06-03 20:37:29
+success
+2015-06-03 20:37:47
+update t_zhsp_orderMain set FStatus =0,FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506030001012'
+2015-06-03 20:37:47
+success
+2015-06-03 20:37:47
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506030001012'
+2015-06-03 20:37:47
+success
+2015-06-03 20:38:38
+update t_zhsp_orderMain set FSource = 1,FDataFlag=1,FUpdateFlag=1,FStatus = 1 where FOrderNumber = '201506030001012'
+2015-06-03 20:38:38
+success
+2015-06-03 20:38:38
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201506030001012'
+2015-06-03 20:38:38
+success
+2015-06-03 21:01:02
+update t_zhsp_orderMain set FStatus =0,FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506030001012'
+2015-06-03 21:01:02
+success
+2015-06-03 21:01:02
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506030001012'
+2015-06-03 21:01:02
+success
+2015-06-03 21:02:31
+update t_zhsp_orderMain set FSource = 1,FDataFlag=1,FUpdateFlag=1,FStatus = 1 where FOrderNumber = '201506030001012'
+2015-06-03 21:02:31
+success
+2015-06-03 21:02:31
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201506030001012'
+2015-06-03 21:02:31
+success
+2015-06-03 21:28:37
+update t_zhsp_orderMain set FStatus =0,FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506030001012'
+2015-06-03 21:28:37
+success
+2015-06-03 21:28:37
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506030001012'
+2015-06-03 21:28:37
+success
+2015-06-03 21:31:20
+update t_zhsp_orderMain set FSource = 1,FDataFlag=1,FUpdateFlag=1,FStatus = 1 where FOrderNumber = '201506030001012'
+2015-06-03 21:31:20
+success
+2015-06-03 21:31:20
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201506030001012'
+2015-06-03 21:31:20
+success
+2015-06-04 06:43:47
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('300','300','订单测试1','1','1.01.04.003','201506040001001','2015-06-11 08:43:47','2015-06-11 08:43:47','1','1')
+2015-06-04 06:43:47
+success
+2015-06-04 06:43:47
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('300','400','订单测试2','1','1.01.04.009','201506040001001','2015-06-11 08:43:47','2015-06-11 08:43:47','1','1')
+2015-06-04 06:43:47
+success
+2015-06-04 06:43:47
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FRemark,FStatus) VALUES ('1','01.011','2015-06-04 06:43:47','201506040001001','1','0001','1','1','早茶测试','1')
+2015-06-04 06:43:47
+success
+2015-06-04 06:46:52
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('300','600','','1','1.01.05.007','201506040001002','2015-06-11 08:46:52','2015-06-11 08:46:52','1','1')
+2015-06-04 06:46:52
+success
+2015-06-04 06:46:52
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FRemark,FStatus) VALUES ('1','01.005','2015-06-04 06:46:52','201506040001002','1','0001','1','1','单个测试','1')
+2015-06-04 06:46:52
+success
+2015-06-04 08:10:48
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('5000','50','测试','1','1.01.02.002','201506040001003','2015-06-11 10:10:48','2015-06-11 10:10:48','1','1')
+2015-06-04 08:10:48
+success
+2015-06-04 08:10:48
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FRemark,FStatus) VALUES ('2','02.159','2015-06-04 08:10:48','201506040001003','1','0001','1','1','测试','0')
+2015-06-04 08:10:48
+success
+2015-06-04 08:11:40
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('200','20','新的','1','1.01.03.004','201506040001004','2015-06-11 10:11:40','2015-06-11 10:11:40','1','1')
+2015-06-04 08:11:40
+success
+2015-06-04 08:11:40
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FStatus) VALUES ('1','02.034','2015-06-04 08:11:40','201506040001004','1','0001','1','1','1')
+2015-06-04 08:11:40
+success
+2015-06-04 08:11:51
+update t_zhsp_orderMain set FStatus =0,FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506040001004'
+2015-06-04 08:11:51
+success
+2015-06-04 08:11:51
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506040001004'
+2015-06-04 08:11:51
+success
+2015-06-04 08:11:55
+update t_zhsp_OrderMain set FRemark='无备注信息 ',FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201506040001004'
+2015-06-04 08:11:55
+success
+2015-06-04 08:11:55
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201506040001004'
+2015-06-04 08:11:55
+success
+2015-06-04 08:12:07
+update t_zhsp_orderMain set FSource = 2,FDataFlag=1,FUpdateFlag=1,FStatus = 0 where FOrderNumber = '201506040001004'
+2015-06-04 08:12:07
+success
+2015-06-04 08:12:07
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201506040001004'
+2015-06-04 08:12:07
+success
+2015-06-04 12:47:40
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('100','200','','1','1.01.04.009','201506040001005','2015-06-11','2015-06-11','1','1')
+2015-06-04 12:47:40
+success
+2015-06-04 12:47:40
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('50','40','','1','1.01.04.008','201506040001005','2015-06-11','2015-06-11','1','1')
+2015-06-04 12:47:40
+success
+2015-06-04 12:47:40
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FRemark,FStatus) VALUES ('1','02.040','2015-06-04','201506040001005','1','0001','1','1','中午测试日期','1')
+2015-06-04 12:47:40
+success
+2015-06-04 13:50:06
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('1','1','1','1','1.01.09.005','201506040001006','2015-06-11','2015-06-11','1','1')
+2015-06-04 13:50:06
+success
+2015-06-04 13:50:06
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FStatus) VALUES ('1','02.052','2015-06-04','201506040001006','1','0001','1','1','1')
+2015-06-04 13:50:06
+success
+2015-06-04 13:54:01
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('200','200','200','1','1.01.09.006','201506040001007','2015-06-11','2015-06-11','1','1')
+2015-06-04 13:54:01
+success
+2015-06-04 13:54:01
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FRemark,FStatus) VALUES ('1','01.007','2015-06-04','201506040001007','1','0001','1','1','测试','1')
+2015-06-04 13:54:01
+success
+2015-06-04 15:50:45
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('200','200','','1','1.01.05.007','201506040001008','2015-06-11','2015-06-11','1','1')
+2015-06-04 15:50:45
+success
+2015-06-04 15:50:45
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('300','300','','1','1.01.03.028','201506040001008','2015-06-11','2015-06-11','1','1')
+2015-06-04 15:50:45
+success
+2015-06-04 15:50:45
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FRemark,FStatus) VALUES ('1','02.107','2015-06-04','201506040001008','1','0001','1','1','测试日期2','1')
+2015-06-04 15:50:45
+success
+2015-06-04 23:32:04
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('200','300','','1','1.01.04.002','201506040001009','2015-06-12','2015-06-12','1','1')
+2015-06-04 23:32:04
+success
+2015-06-04 23:32:04
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FStatus) VALUES ('1','02.195','2015-06-04','201506040001009','1','0001','1','1','1')
+2015-06-04 23:32:04
+success
+2015-06-04 23:39:14
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('300','300','','1','1.01.04.002','201506040001010','2015-06-12','2015-06-12','1','1')
+2015-06-04 23:39:14
+success
+2015-06-04 23:39:14
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FRemark,FStatus) VALUES ('1','01.011','2015-06-04','201506040001010','1','0001','1','1','日期城市化','1')
+2015-06-04 23:39:14
+success
+2015-06-05 11:08:59
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('4','4','4','1','1.01.02.003','201506050001001','2015-06-12','2015-06-12','1','1')
+2015-06-05 11:08:59
+success
+2015-06-05 11:08:59
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FStatus) VALUES ('1','01.007','2015-06-05','201506050001001','1','0001','1','1','1')
+2015-06-05 11:08:59
+success
+2015-06-05 11:09:19
+update t_zhsp_orderMain set FStatus =0,FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506050001001'
+2015-06-05 11:09:19
+success
+2015-06-05 11:09:19
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506050001001'
+2015-06-05 11:09:19
+success
+2015-06-05 11:09:43
+update t_zhsp_orderMain set FSource = 1,FDataFlag=1,FUpdateFlag=1,FStatus = 1 where FOrderNumber = '201506050001001'
+2015-06-05 11:09:43
+success
+2015-06-05 11:09:43
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201506050001001'
+2015-06-05 11:09:43
+success
+2015-06-05 11:09:52
+update t_zhsp_orderMain set FStatus =0,FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506050001001'
+2015-06-05 11:09:52
+success
+2015-06-05 11:09:52
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506050001001'
+2015-06-05 11:09:52
+success
+2015-06-05 11:10:03
+update t_zhsp_OrderMain set FRemark='无备注信息 ',FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201506050001001'
+2015-06-05 11:10:03
+success
+2015-06-05 11:10:03
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201506050001001'
+2015-06-05 11:10:03
+success
+2015-06-05 11:10:11
+update t_zhsp_OrderMain set FRemark='无备注信息 ',FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201506050001001'
+2015-06-05 11:10:11
+success
+2015-06-05 11:10:11
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201506050001001'
+2015-06-05 11:10:11
+success
+2015-06-05 11:10:23
+update t_zhsp_orderMain set FStatus =4,FDataFlag = -1, FUpdateFlag = 1  where FOrderNumber ='201506050001001'
+2015-06-05 11:10:23
+success
+2015-06-05 11:10:23
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1  where FOrderNumber ='201506050001001'
+2015-06-05 11:10:23
+success
+2015-06-05 11:10:49
+update t_zhsp_orderMain set FSource = 1,FDataFlag=1,FUpdateFlag=1,FStatus = 1 where FOrderNumber = '201506050001001'
+2015-06-05 11:10:49
+success
+2015-06-05 11:10:49
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201506050001001'
+2015-06-05 11:10:49
+success
+2015-06-05 11:11:04
+update t_zhsp_orderMain set FStatus =4,FDataFlag = -1, FUpdateFlag = 1  where FOrderNumber ='201506050001001'
+2015-06-05 11:11:04
+success
+2015-06-05 11:11:04
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1  where FOrderNumber ='201506050001001'
+2015-06-05 11:11:04
+success
+2015-06-05 11:16:43
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('5','5','5','1','1.01.03.004','201506050001002','2015-06-12','2015-06-12','1','1')
+2015-06-05 11:16:43
+success
+2015-06-05 11:16:43
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FRemark,FStatus) VALUES ('1','01.010','2015-06-05','201506050001002','1','0001','1','1','5','1')
+2015-06-05 11:16:43
+success
+2015-06-05 11:18:15
+update t_zhsp_orderMain set FStatus =4,FDataFlag = -1, FUpdateFlag = 1  where FOrderNumber ='201506050001002'
+2015-06-05 11:18:15
+success
+2015-06-05 11:18:15
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1  where FOrderNumber ='201506050001002'
+2015-06-05 11:18:15
+success
+2015-06-05 11:20:01
+update t_zhsp_orderMain set FStatus =4,FDataFlag = -1, FUpdateFlag = 1  where FOrderNumber ='201506040001010'
+2015-06-05 11:20:01
+success
+2015-06-05 11:20:01
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1  where FOrderNumber ='201506040001010'
+2015-06-05 11:20:01
+success
+2015-06-05 13:14:14
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('1','1','1','1','1.01.02.021','201506050001003','2015-06-12','2015-06-12','1','1')
+2015-06-05 13:14:14
+success
+2015-06-05 13:14:14
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('2','2','2','1','1.01.03.002','201506050001003','2015-06-12','2015-06-12','1','1')
+2015-06-05 13:14:14
+success
+2015-06-05 13:14:14
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FStatus) VALUES ('1','02.188','2015-06-05','201506050001003','1','0001','1','1','1')
+2015-06-05 13:14:14
+success
+2015-06-05 13:15:18
+update t_zhsp_orderMain set FStatus =0,FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506050001003'
+2015-06-05 13:15:18
+success
+2015-06-05 13:15:18
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506050001003'
+2015-06-05 13:15:18
+success
+2015-06-05 13:16:49
+update t_zhsp_orderMain set FSource = 1,FDataFlag=1,FUpdateFlag=1,FStatus = 1 where FOrderNumber = '201506050001003'
+2015-06-05 13:16:49
+success
+2015-06-05 13:16:49
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201506050001003'
+2015-06-05 13:16:49
+success
+2015-06-05 13:17:38
+update t_zhsp_orderMain set FStatus =0,FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506050001003'
+2015-06-05 13:17:38
+success
+2015-06-05 13:17:38
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506050001003'
+2015-06-05 13:17:38
+success
+2015-06-05 13:17:44
+update t_zhsp_orderMain set FStatus =4,FDataFlag = -1, FUpdateFlag = 1  where FOrderNumber ='201506050001003'
+2015-06-05 13:17:44
+success
+2015-06-05 13:17:44
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1  where FOrderNumber ='201506050001003'
+2015-06-05 13:17:44
+success
+2015-06-05 13:23:14
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('2','2','2','1','1.01.02.002','201506050001004','2015-06-12','2015-06-12','1','1')
+2015-06-05 13:23:14
+success
+2015-06-05 13:23:14
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FRemark,FStatus) VALUES ('1','01.001','2015-06-05','201506050001004','1','0001','1','1','2','1')
+2015-06-05 13:23:14
+success
+2015-06-05 13:23:44
+update t_zhsp_orderMain set FStatus =0,FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506050001004'
+2015-06-05 13:23:44
+success
+2015-06-05 13:23:44
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506050001004'
+2015-06-05 13:23:44
+success
+2015-06-05 13:24:04
+update t_zhsp_orderMain set FSource = 1,FDataFlag=1,FUpdateFlag=1,FStatus = 1 where FOrderNumber = '201506050001004'
+2015-06-05 13:24:04
+success
+2015-06-05 13:24:04
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201506050001004'
+2015-06-05 13:24:04
+success
+2015-06-05 13:50:13
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('3','3','3','1','1.01.02.017','201506050001005','2015-06-12','2015-06-12','1','1')
+2015-06-05 13:50:13
+success
+2015-06-05 13:50:13
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FStatus) VALUES ('1','02.188','2015-06-05','201506050001005','1','0001','1','1','1')
+2015-06-05 13:50:13
+success
+2015-06-05 13:50:48
+update t_zhsp_orderMain set FStatus =4,FDataFlag = -1, FUpdateFlag = 1  where FOrderNumber ='201506050001005'
+2015-06-05 13:50:48
+success
+2015-06-05 13:50:48
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1  where FOrderNumber ='201506050001005'
+2015-06-05 13:50:48
+success
+2015-06-05 13:57:49
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('5','5','5','1','1.01.03.103','201506050001006','2015-06-12','2015-06-12','1','1')
+2015-06-05 13:57:49
+success
+2015-06-05 13:57:49
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FStatus) VALUES ('1','01.008','2015-06-05','201506050001006','1','0001','1','1','1')
+2015-06-05 13:57:49
+success
+2015-06-05 14:01:06
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('6','6','6','1','1.01.02.019','201506050001007','2015-06-12','2015-06-12','1','1')
+2015-06-05 14:01:06
+success
+2015-06-05 14:01:06
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FStatus) VALUES ('1','09.001','2015-06-05','201506050001007','1','0001','1','1','1')
+2015-06-05 14:01:06
+success
+2015-06-05 14:27:18
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('5000','5','5000','1','1.01.03.124','201506050001008','2015-06-12','2015-06-12','1','1')
+2015-06-05 14:27:18
+success
+2015-06-05 14:27:18
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FStatus) VALUES ('2','02.052','2015-06-05','201506050001008','1','0001','1','1','0')
+2015-06-05 14:27:18
+success
+2015-06-05 19:10:23
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('100','200','','1','1.01.04.002','201506050001009','2015-06-12','2015-06-12','1','1')
+2015-06-05 19:10:23
+success
+2015-06-05 19:10:23
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FRemark,FStatus) VALUES ('1','02.103','2015-06-05','201506050001009','1','0001','1','1','晚上测试','1')
+2015-06-05 19:10:23
+success
+2015-06-05 20:11:05
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('200','200','','1','1.01.04.009','201506050001010','2015-06-12','2015-06-12','1','1')
+2015-06-05 20:11:05
+success
+2015-06-05 20:11:05
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('300','300','','1','1.01.05.005','201506050001010','2015-06-12','2015-06-12','1','1')
+2015-06-05 20:11:05
+success
+2015-06-05 20:11:05
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FRemark,FStatus) VALUES ('1','02.089','2015-06-05','201506050001010','1','0001','1','1','测试2订单','1')
+2015-06-05 20:11:05
+success
+2015-06-05 20:12:05
+update t_zhsp_orderMain set FStatus =0,FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506050001010'
+2015-06-05 20:12:05
+success
+2015-06-05 20:12:05
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506050001010'
+2015-06-05 20:12:05
+success
+2015-06-05 20:12:27
+update t_zhsp_orderMain set FSource = 1,FDataFlag=1,FUpdateFlag=1,FStatus = 1 where FOrderNumber = '201506050001010'
+2015-06-05 20:12:27
+success
+2015-06-05 20:12:27
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201506050001010'
+2015-06-05 20:12:27
+success
+2015-06-05 21:55:30
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('100','100','','1','1.01.04.009','201506050002001','2015-06-12','2015-06-12','1','1')
+2015-06-05 21:55:30
+success
+2015-06-05 21:55:30
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FRemark,FStatus) VALUES ('1','02.034','2015-06-05','201506050002001','1','0002','1','1','测试用户0002','1')
+2015-06-05 21:55:30
+success
+2015-06-06 06:40:36
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('200','30','','1','1.01.04.003','201506060001001','2015-06-13','2015-06-13','1','1')
+2015-06-06 06:40:36
+success
+2015-06-06 06:40:36
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FRemark,FStatus) VALUES ('1','01.011','2015-06-06','201506060001001','1','0001','1','1','早晨测试，速度很快','1')
+2015-06-06 06:40:36
+success
+2015-06-06 08:21:34
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('200','300','','1','1.01.04.002','201506060001002','2015-06-13','2015-06-13','1','1')
+2015-06-06 08:21:34
+success
+2015-06-06 08:21:34
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FRemark,FStatus) VALUES ('1','05.002','2015-06-06','201506060001002','1','0001','1','1','三星手机测试','1')
+2015-06-06 08:21:34
+success
+2015-06-06 12:29:41
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('32','332','32','1','1.01.03.004','201506060001003','2015-06-13','2015-06-13','1','1')
+2015-06-06 12:29:41
+success
+2015-06-06 12:29:41
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FStatus) VALUES ('1','01.007','2015-06-06','201506060001003','1','0001','1','1','1')
+2015-06-06 12:29:41
+success
+2015-06-06 12:30:05
+update t_zhsp_orderMain set FStatus =0,FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506060001003'
+2015-06-06 12:30:05
+success
+2015-06-06 12:30:05
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506060001003'
+2015-06-06 12:30:05
+success
+2015-06-06 13:01:52
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('1000','500','','1','1.01.05.008','201506060001004','2015-06-13','2015-06-13','1','1')
+2015-06-06 13:01:52
+success
+2015-06-06 13:01:52
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FRemark,FStatus) VALUES ('2','01.006','2015-06-06','201506060001004','1','0001','1','1','哈哈韩国队还就广泛地使工程','0')
+2015-06-06 13:01:52
+success
+2015-06-07 17:07:07
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('100','300','','1','1.01.04.003','201506070001001','2015-06-14','2015-06-14','1','1')
+2015-06-07 17:07:07
+success
+2015-06-07 17:07:07
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FRemark,FStatus) VALUES ('1','01.011','2015-06-07','201506070001001','1','0001','1','1','周日测试','1')
+2015-06-07 17:07:07
+success
+2015-06-07 17:25:07
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('100','200','','1','1.01.04.003','201506070001002','2015-06-14','2015-06-14','1','1')
+2015-06-07 17:25:07
+success
+2015-06-07 17:25:07
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('100','300','','1','1.01.04.009','201506070001002','2015-06-14','2015-06-14','1','1')
+2015-06-07 17:25:07
+success
+2015-06-07 17:25:07
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FRemark,FStatus) VALUES ('1','01.011','2015-06-07','201506070001002','1','0001','1','1','修改测试','1')
+2015-06-07 17:25:07
+success
+2015-06-07 17:28:16
+update t_zhsp_orderMain set FStatus =0,FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506070001002'
+2015-06-07 17:28:16
+success
+2015-06-07 17:28:16
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506070001002'
+2015-06-07 17:28:16
+success
+2015-06-07 17:30:29
+update t_zhsp_orderMain set FSource = 1,FDataFlag=1,FUpdateFlag=1,FStatus = 1 where FOrderNumber = '201506070001002'
+2015-06-07 17:30:29
+success
+2015-06-07 17:30:29
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201506070001002'
+2015-06-07 17:30:29
+success
+2015-06-07 20:49:35
+update t_zhsp_orderMain set FStatus =0,FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506070001002'
+2015-06-07 20:49:35
+success
+2015-06-07 20:49:35
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506070001002'
+2015-06-07 20:49:35
+success
+2015-06-07 20:55:41
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('100','200','','1','1.01.04.003','201506070001003','2015-06-14','2015-06-14','1','1')
+2015-06-07 20:55:41
+success
+2015-06-07 20:55:41
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FStatus) VALUES ('1','01.011','2015-06-07','201506070001003','1','0001','1','1','1')
+2015-06-07 20:55:41
+success
+2015-06-07 20:56:09
+update t_zhsp_orderMain set FStatus =0,FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506070001003'
+2015-06-07 20:56:09
+success
+2015-06-07 20:56:09
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506070001003'
+2015-06-07 20:56:09
+success
+2015-06-07 20:56:24
+update t_zhsp_orderMain set FSource = 2,FDataFlag=1,FUpdateFlag=1,FStatus = 0 where FOrderNumber = '201506070001003'
+2015-06-07 20:56:24
+success
+2015-06-07 20:56:24
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201506070001003'
+2015-06-07 20:56:24
+success
+2015-06-08 08:24:16
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('5','5','5','1','1.01.02.004','201506080001001','2015-06-15','2015-06-15','1','1')
+2015-06-08 08:24:16
+success
+2015-06-08 08:24:16
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FStatus) VALUES ('1','01.007','2015-06-08','201506080001001','1','0001','1','1','1')
+2015-06-08 08:24:16
+success
+2015-06-08 08:26:58
+update t_zhsp_orderMain set FStatus =0,FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506080001001'
+2015-06-08 08:26:58
+success
+2015-06-08 08:26:58
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506080001001'
+2015-06-08 08:26:58
+success
+2015-06-08 08:30:11
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('1500','5','5','1','1.01.02.003','201506080001002','2015-06-15','2015-06-15','1','1')
+2015-06-08 08:30:11
+success
+2015-06-08 08:30:11
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FStatus) VALUES ('2','01.010','2015-06-08','201506080001002','1','0001','1','1','0')
+2015-06-08 08:30:11
+success
+2015-06-08 08:37:03
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('6','6','6','1','1.01.02.021','201506080001003','2015-06-15','2015-06-15','1','1')
+2015-06-08 08:37:03
+success
+2015-06-08 08:37:03
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FStatus) VALUES ('1','06.012','2015-06-08','201506080001003','1','0001','1','1','1')
+2015-06-08 08:37:03
+success
+2015-06-08 08:37:45
+update t_zhsp_orderMain set FStatus =0,FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506080001003'
+2015-06-08 08:37:45
+success
+2015-06-08 08:37:45
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506080001003'
+2015-06-08 08:37:45
+success
+2015-06-08 08:38:23
+update t_zhsp_orderMain set FSource = 1,FDataFlag=1,FUpdateFlag=1,FStatus = 1 where FOrderNumber = '201506080001003'
+2015-06-08 08:38:23
+success
+2015-06-08 08:38:23
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201506080001003'
+2015-06-08 08:38:23
+success
+2015-06-08 08:41:15
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('1','11','1','1','1.01.03.003','201506080001004','2015-06-15','2015-06-15','1','1')
+2015-06-08 08:41:15
+success
+2015-06-08 08:41:15
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FStatus) VALUES ('1','07.056','2015-06-08','201506080001004','1','0001','1','1','1')
+2015-06-08 08:41:15
+success
+2015-06-08 08:43:23
+update t_zhsp_orderMain set FStatus =4,FDataFlag = -1, FUpdateFlag = 1  where FOrderNumber ='201506080001004'
+2015-06-08 08:43:23
+success
+2015-06-08 08:43:23
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1  where FOrderNumber ='201506080001004'
+2015-06-08 08:43:23
+success
+2015-06-08 13:55:05
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('1','1','1','1','1.01.02.003','201506080001005','2015-06-15','2015-06-15','1','1')
+2015-06-08 13:55:05
+success
+2015-06-08 13:55:05
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FStatus) VALUES ('1','02.176','2015-06-08','201506080001005','1','0001','1','1','1')
+2015-06-08 13:55:05
+success
+2015-06-08 13:55:32
+update t_zhsp_orderMain set FStatus =0,FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506080001005'
+2015-06-08 13:55:32
+success
+2015-06-08 13:55:32
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201506080001005'
+2015-06-08 13:55:32
+success
+2015-06-08 13:55:43
+update t_zhsp_orderMain set FSource = 1,FDataFlag=1,FUpdateFlag=1,FStatus = 1 where FOrderNumber = '201506080001005'
+2015-06-08 13:55:43
+success
+2015-06-08 13:55:43
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201506080001005'
+2015-06-08 13:55:43
+success
+2015-06-08 13:56:19
+update t_zhsp_orderMain set FStatus =4,FDataFlag = -1, FUpdateFlag = 1  where FOrderNumber ='201506080001005'
+2015-06-08 13:56:19
+success
+2015-06-08 13:56:19
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1  where FOrderNumber ='201506080001005'
+2015-06-08 13:56:19
+success
+2015-06-08 14:13:15
+INSERT INTO t_zhsp_OrderSub(FQty,FPrice,FRemark,FAccountId,FProductNumber,FOrderNumber,FDate,FAdviceConsignDate,FDataFlag,FUpdateFlag) VALUES ('5','5','','1','1.01.02.002','201506080001006','2015-06-15','2015-06-15','1','1')
+2015-06-08 14:13:15
+success
+2015-06-08 14:13:15
+INSERT INTO t_zhsp_OrderMain(FSource,FCustomerNumber,FDate,FOrderNumber,FAccountId,FEmployeeNumber,FDataFlag,FUpdateFlag,FStatus) VALUES ('1','07.004','2015-06-08','201506080001006','1','0001','1','1','1')
+2015-06-08 14:13:15
+success
+2015-06-13 21:52:46
+update t_zhsp_OrderMain set FRemark='直接+未通过 ',FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201501010001019'
+2015-06-13 21:52:46
+success
+2015-06-13 21:52:46
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201501010001019'
+2015-06-13 21:52:46
+success
+2015-06-13 22:03:25
+update t_zhsp_orderMain set FSource = ,FDataFlag=1,FUpdateFlag=1,FStatus = 1 where FOrderNumber = '201501010001016'
+2015-06-13 22:03:25
+success
+2015-06-13 22:03:25
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201501010001016'
+2015-06-13 22:03:25
+success
+2015-06-13 22:04:06
+update t_zhsp_orderMain set FSource = ,FDataFlag=1,FUpdateFlag=1,FStatus = 1 where FOrderNumber = '201501010001017'
+2015-06-13 22:04:06
+success
+2015-06-13 22:04:06
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201501010001017'
+2015-06-13 22:04:06
+success
+2015-06-13 22:08:21
+update t_zhsp_orderMain set FSource = ,FDataFlag=1,FUpdateFlag=1,FStatus = 1 where FOrderNumber = '201501010001019'
+2015-06-13 22:08:21
+success
+2015-06-13 22:08:21
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201501010001019'
+2015-06-13 22:08:21
+success
+2015-06-13 22:09:13
+update t_zhsp_orderMain set FSource = ,FDataFlag=1,FUpdateFlag=1,FStatus = 1 where FOrderNumber = '201501010001020'
+2015-06-13 22:09:13
+success
+2015-06-13 22:09:13
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201501010001020'
+2015-06-13 22:09:13
+success
+2015-06-13 22:13:34
+update t_zhsp_orderMain set FStatus =0,FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='20150101000110'
+2015-06-13 22:13:34
+success
+2015-06-13 22:13:34
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='20150101000110'
+2015-06-13 22:13:34
+success
+2015-06-13 22:13:45
+update t_zhsp_orderMain set FSource = ,FDataFlag=1,FUpdateFlag=1,FStatus = 1 where FOrderNumber = '20150101000110'
+2015-06-13 22:13:45
+success
+2015-06-13 22:13:45
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='20150101000110'
+2015-06-13 22:13:45
+success
+2015-06-13 22:13:48
+update t_zhsp_orderMain set FStatus =0,FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='20150101000110'
+2015-06-13 22:13:48
+success
+2015-06-13 22:13:48
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='20150101000110'
+2015-06-13 22:13:48
+success
+2015-06-13 22:13:54
+update t_zhsp_orderMain set FSource = ,FDataFlag=1,FUpdateFlag=1,FStatus = 1 where FOrderNumber = '20150101000110'
+2015-06-13 22:13:54
+success
+2015-06-13 22:13:54
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='20150101000110'
+2015-06-13 22:13:54
+success
+2015-06-13 22:13:58
+update t_zhsp_orderMain set FStatus =4,FDataFlag = -1, FUpdateFlag = 1  where FOrderNumber ='20150101000110'
+2015-06-13 22:13:58
+success
+2015-06-13 22:13:58
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1  where FOrderNumber ='20150101000110'
+2015-06-13 22:13:58
+success
+2015-06-13 22:19:12
+update t_zhsp_orderMain set FSource = ,FDataFlag=1,FUpdateFlag=1,FStatus = 1 where FOrderNumber = '201501010001017'
+2015-06-13 22:19:12
+success
+2015-06-13 22:19:12
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201501010001017'
+2015-06-13 22:19:12
+success
+2015-06-13 22:19:52
+update t_zhsp_orderMain set FStatus =0,FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201501010001017'
+2015-06-13 22:19:52
+success
+2015-06-13 22:19:52
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201501010001017'
+2015-06-13 22:19:52
+success
+2015-06-13 22:19:57
+update t_zhsp_orderMain set FSource = ,FDataFlag=1,FUpdateFlag=1,FStatus = 1 where FOrderNumber = '201501010001017'
+2015-06-13 22:19:57
+success
+2015-06-13 22:19:57
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201501010001017'
+2015-06-13 22:19:57
+success
+2015-06-13 22:20:38
+update t_zhsp_orderMain set FStatus =0,FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201501010001014'
+2015-06-13 22:20:38
+success
+2015-06-13 22:20:38
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201501010001014'
+2015-06-13 22:20:38
+success
+2015-06-13 22:20:44
+update t_zhsp_orderMain set FSource = ,FDataFlag=1,FUpdateFlag=1,FStatus = 1 where FOrderNumber = '201501010001014'
+2015-06-13 22:20:44
+success
+2015-06-13 22:20:44
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201501010001014'
+2015-06-13 22:20:44
+success
+2015-06-13 22:32:34
+update t_zhsp_orderMain set FSource = ,FDataFlag=1,FUpdateFlag=1,FStatus = 1 where FOrderNumber = '201501010001020'
+2015-06-13 22:32:34
+success
+2015-06-13 22:32:34
+update t_zhsp_OrderSub set FDataFlag=1,FUpdateFlag=1 where FOrderNumber='201501010001020'
+2015-06-13 22:32:34
+success
+2015-06-13 22:32:37
+update t_zhsp_orderMain set FStatus =0,FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201501010001020'
+2015-06-13 22:32:37
+success
+2015-06-13 22:32:37
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1 where FOrderNumber ='201501010001020'
+2015-06-13 22:32:37
+success
+2015-06-13 22:32:42
+update t_zhsp_orderMain set FStatus =4,FDataFlag = -1, FUpdateFlag = 1  where FOrderNumber ='201501010001020'
+2015-06-13 22:32:42
+success
+2015-06-13 22:32:42
+update t_zhsp_OrderSub set FDataFlag = -1, FUpdateFlag = 1  where FOrderNumber ='201501010001020'
+2015-06-13 22:32:42
+success

@@ -1,0 +1,558 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: lio;
+}
+body {
+  overflow-x: hidden;
+  background:rgba(0,0,0,0.1);
+}
+#top {
+  width: 94%;
+  height: 54px;
+  background: #39f;
+  -webkit-border-radius: 8px;
+  -o-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: center;
+  line-height: 54px;
+  font-family: lio;
+  font-size: 1.4em;
+  font-weight:bolder;
+  position: relative;
+  color: white;
+}
+#top b {
+  width:40px;
+  height:40px;
+  position:absolute;
+  right:10px;
+  top:7px;
+  background:url(../images/icon/top3.ico) center center no-repeat;
+  background-size:cover;
+  /* -webkit-border-radius: 50%/20%;
+  -o-border-radius: 50%/20%;
+  -ms-border-radius: 50%/20%;
+  -moz-border-radius: 50%/20%;
+  border-radius: 50%/20%; 
+  border:1px groove #666;*/
+}
+/* #top i {
+  display: block;
+  width: 36px;
+  height: 36px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background: red;
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  background: url(../images/icon/11.png) center center no-repeat;
+  background-size: cover;
+  left: 10px;
+  &:hover{
+    		background:green;
+    	};
+} */
+
+#top i {
+  display: block;
+  width: 36px;
+  height: 36px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background: red;
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  background: url(../images/icon/11.png) center center no-repeat;
+  background-size: cover;
+  left: 10px;
+}
+#top i:active {
+  background: url(../images/icon/1.png) center center no-repeat;
+  background-size: cover;
+}
+
+#top b:active {
+  background-size: cover;
+  box-shadow:0 0 1px 1px #999;
+  border:1px solid #999;
+}
+#topsSec{
+	  width: 94%;
+	  margin: 0 auto;
+	  margin-top: 4px;
+	  text-align: center;
+	  font-weight:bolder;
+	  position: relative;
+	  overflow:hidden;
+}
+#history{
+	  width: 100%;
+	  -webkit-border-radius: 8px;
+	  -o-border-radius: 8px;
+	  -ms-border-radius: 8px;
+	  -moz-border-radius: 8px;
+	  border-radius: 8px;
+	  text-align: center;
+	  line-height: 54px;
+	  font-family: lio;
+	  font-size: 1em;
+	  font-weight:bolder;
+	  position: relative;
+	  color: white;
+
+}
+#history button{
+	display:block;
+	width:100%;
+	height:99%;
+	-webkit-border-radius: 8px;
+	-o-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-moz-border-radius: 8px;
+    border-radius: 8px;
+	background: #39f;
+	font-size:1em;
+	padding:4px;
+	padding:8px 0px;
+}
+#date{
+	  width:100%;
+	  background: #39f;
+	  -webkit-border-radius: 8px;
+	  -o-border-radius: 8px;
+	  -ms-border-radius: 8px;
+	  -moz-border-radius: 8px;
+	  border-radius: 8px;
+	  text-align: center;
+	  line-height: 54px;
+	  font-family: lio;
+	  font-size: 1em;
+	  font-weight:bolder;
+	  position: relative;
+	  color: #333;
+	  float:right;
+	  margin-top:4px;
+}
+#date label{
+	display:block;
+	width:60%;
+	text-indent:0px;
+	margin-left:1%;
+	height:80%;
+	float:left;
+}
+#date label:nth-child(2){
+	border-top:1px solid white;
+}
+#date label input{
+	vertical-align:middle;
+	width:70%;
+	height:80%;
+	margin-left:6px;
+	-webkit-border-radius: 8px;
+	-o-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	text-align:center;
+}
+#date button{
+	width:60px;
+	float:right;
+	height:40px;
+	vertical-align:middle;
+	display:block;
+	margin-top:7px;;
+	-webkit-border-radius: 8px;
+	-o-border-radius: 8px;
+    -ms-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	text-align: center;
+	margin-left:9px;
+	margin-right:6px;
+	background:#666;
+}
+
+
+#date1{
+	  width: 100%;
+	  height: 54px;
+	  background: #39f;
+	  -webkit-border-radius: 8px;
+	  -o-border-radius: 8px;
+	  -ms-border-radius: 8px;
+	  -moz-border-radius: 8px;
+	  border-radius: 8px;
+	  text-align: center;
+	  line-height: 54px;
+	  font-family: lio;
+	  font-size: 1em;
+	  font-weight:bolder;
+	  position: relative;
+	  color: #333;
+	  float:right;
+}
+#date1 label{
+	display:block;
+	width:37%;
+	float:left;
+	text-indent:0px;
+	margin-left:1%;
+	height:80%;
+}
+#date1 label input{
+	vertical-align:middle;
+	width:70%;
+	height:80%;
+	margin-left:6px;
+	-webkit-border-radius: 8px;
+	-o-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+}
+#date1 button{
+	width:16%;
+	float:left;
+	height:80%;
+	vertical-align:middle;
+	display:block;
+	margin-top:7px;;
+	-webkit-border-radius: 8px;
+	-o-border-radius: 8px;
+    -ms-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	text-align: center;
+	margin-left:9px;
+	background:#666;
+}
+
+
+#edit-main {
+  width: 94%;
+  margin: 0 auto;
+}
+#edit-main dl {
+  border-bottom: 1px solid #888;
+  overflow: hidden;
+  -webkit-border-radius: 8px;
+  -o-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  margin-top: 12px;
+  background:white;
+  box-shadow:0px 0px 0px #333;
+}
+#edit-main dl .show {
+  display: block;
+}
+#edit-main dl dt {
+  height: 40px;
+  line-height: 40px;
+  text-indent: 10px;
+  font-weight: bolder;
+  font-size: 1em;
+  background-color: #39f;
+  display: none;
+  border-style: outset;
+  position:relative;
+}
+#edit-main dl dt button.modify{
+	width:36px;
+	height:36px;
+	position:absolute;
+	top:2px;
+	right:4px;
+	background:url(../images/icon/1.ico) center center no-repeat;
+	background-size:cover;
+	border-radius:8px;
+	display:none;
+	z-index:1000;
+	outline:none;
+}
+#edit-main dl dt button:active{
+	background:blue;
+}
+#edit-main dl dt:active {
+  border-style: inset;
+}
+#edit-main dl dd {
+  min-height: 30px;
+  line-height: 30px;
+  border-top: 1px solid green;
+  padding: 0px 6px;
+  display: none;
+}
+#edit-main dl dd ul{
+	background:#D2E9FF; 
+	position:absolute;
+	width:66%;
+	margin-left:30%;
+	top:100%;
+	max-height:240px;
+	overflow:auto;
+	border:1px solid #666;
+	border-top:none;
+	z-index:10000;
+	border-bottom:none;
+}
+#edit-main dl dd ul li{
+	font-size:12px;
+	background:#D2E9FF; 
+}
+#edit-main dl dd b{
+	font-size:15px;
+}
+#edit-main dl dd label {
+  padding-left: 2px;
+  padding-right:0px;
+  font-weight: 14px;
+}
+#edit-main dl dd input {
+  margin-left: 2px;
+  border: none;
+  height: 90%;
+  line-height: 30px;
+  background-color: white;
+  min-width:20px;
+  max-width:220px;
+  padding-right:0px;
+  font-size:14px;
+  
+}
+#edit-main dl dd textarea {
+  min-height: 36px;
+  margin-left: 4px;
+  border: none;
+  line-height: 30px;
+  vertical-align: middle;
+  width: 80%;
+  border: 1px solid blue;
+  margin-top: 6px;
+}
+#edit-main dl div.bottom {
+  margin-top: 2px;
+  height: 34px;
+  width: 100%;
+  position:relative;
+}
+#edit-main dl div.bottom i{
+	display:block;
+	height:90%;
+	width:1px;
+	z-index:10;
+	position:absolute;
+	left:0;
+	right:0;
+	margin:0 auto;
+	background:#999;
+	top:10%;
+}
+#edit-main dl div.bottom a {
+  display: block;
+  float: left;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  line-height: 30px;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 1.2em;
+  font-weight: bolder;
+  text-decoration: none;
+  padding:0;
+  margin-bottom:1.714px;
+
+}
+#edit-main dl div.bottom a button{
+	width:100%;
+	height:100%;
+	margin:0;
+	padding:0;
+	outline:none;
+	border:none;
+	outline:none;
+}
+#edit-main dl div.bottom a button:active{
+	outline:none;
+}
+#edit-main dl div.bottom a:hover {
+  /* background-color: blue; */
+}
+#edit-main dl div.top {
+  width: 100%;
+  position: relative;
+}
+#edit-main dl div.top h4 {
+  display: block;
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  text-align: left;
+  text-indent: 10px;
+  font-weight: bolder;
+  background-color: #39f;
+  border-radius:4px 4px 0px 0px;
+  -webkit-border-radius:4px 4px 0px 0px;
+  -o-border-radius:4px 4px 0px 0px;
+  -moz-border-radius:4px 4px 0px 0px;
+  -ms-border-radius:4px 4px 0px 0px;
+  
+}
+#edit-main dl div.top ul {
+  width: 100%;
+}
+#edit-main dl div.top ul li {
+  width: 100%;
+  min-height: 30px;
+  line-height: 30px;
+  text-indent: 4px;
+  position:relative;
+}
+#edit-main dl div.top ul li:last-child{
+	margin-bottom:20px;
+}
+#edit-main dl div.top ul li[class='add'] span{
+	display:block;
+	width:50px;
+	height:70%;
+	max-height:30px;
+	background:#39f;
+	border:1px solid green;
+	cursor:pointer;
+	position:absolute;
+	top:5px;
+	right:2%;
+	font-size:0.8em;
+	line-height:20px;
+	text-align:center;
+	padding:0;
+	border-radius:8px;
+	display:none;
+	z-index:1000;
+}
+#edit-main dl div.top ul li label {
+  height: 30px;
+  padding: 0px 6px;
+  font-weight: bold;
+  display:inline-block;
+  width:25%;
+  font-size:15px;
+  text-align:right;
+  font-weight:bolder;
+  padding-left:0;
+}
+#edit-main dl div.top ul li input {
+  vertical-align: middle;
+  font-size:14px;
+  height: 80%;
+  border: none;
+  width: 62%;
+  padding:1px 0px;
+  
+}
+#edit-main dl div.top ul li textarea {
+  vertical-align: middle;
+  font-size:14px;
+  height: 80%;
+  border: none;
+  width: 61%;
+  padding:1px 0px;
+}
+#edit-main dl div.top button {
+  display: block;
+  position: absolute !important;
+  top: 4px;
+  right: 4px;
+  width: 38px;
+  height: 38px;
+  -webkit-border-radius: 8px;
+  -o-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  background: url(../images/icon/2.ico) center center no-repeat;
+  background-size:cover;
+  outline:none;
+}
+#edit-main dl div.top button:active{
+	background:blue;
+}
+.suggest_ul,.suggest_ulc{
+	background:white;
+	z-index:10000;
+	list-style:none;
+}
+#top-face{
+	position:fixed; 
+	display:none;
+	background:#333; 
+	width:80%; 
+	padding:10px 4px;
+	-webkit-border-radius: 8px;
+	-o-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	top:30%;
+	/*bottom:30%;*/
+	text-align:center;
+	color:white;
+	left:0;
+	right:0;
+	margin:100px auto; 
+	border: 1px solid #333
+	z-index:100000;
+	padding-bottom:40px;
+}
+#more,#historymore,#timemore,#moreup,#timemoreup{
+	display: block; 
+	clear:both; 
+	width:40%;
+    height:40px;
+    margin:0 auto;
+    margin-top:30px;
+    margin-bottom:10px;
+}
+#ajax{
+	width:160px;
+	height:100px;
+	position:fixed;
+	line-height:100px;
+	font-size:1.2em;
+	font-weight:bold;
+	color:white;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	margin:auto auto;
+	-webkit-border-radius: 8px;
+	-o-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	text-align:center;
+	background:#39f;
+	display:none;
+}

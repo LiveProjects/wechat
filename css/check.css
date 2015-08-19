@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@font-face {
+  font-family: lio;
+}
+body {
+  overflow-x: hidden;
+  background:rgba(0,0,0,0.1);
+}
+#eric{
+	border-radius:8px;
+	-o-border-radius:8px;
+	-moz-border-radius:8px;
+	-ms-border-radius:8px;
+	-webkit-border-radius:8px;
+}
+#top {
+  width: 94%;
+  height: 54px;
+  background: #39f;
+  -webkit-border-radius: 8px;
+  -o-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  margin: 0 auto;
+  margin-top: 10px;
+  text-align: center;
+  line-height: 54px;
+  font-family: lio;
+  font-size: 1.4em;
+  position: relative;
+  color: white;
+}
+#top b {
+  width:40px;
+  height:40px;
+  position:absolute;
+  right:10px;
+  top:7px;
+  background:url(../images/icon/top3.ico) center center no-repeat;
+  background-size:cover;
+  /* -webkit-border-radius: 50%/20%;
+  -o-border-radius: 50%/20%;
+  -ms-border-radius: 50%/20%;
+  -moz-border-radius: 50%/20%;
+  border-radius: 50%/20%; 
+  border:1px groove #666;*/
+}
+#top i {
+  display: block;
+  width: 36px;
+  height: 36px;
+  -webkit-border-radius: 6px;
+  -o-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  background: red;
+  position: absolute;
+  top: 10px;
+  bottom: 0;
+  background: url(../images/icon/11.png) center center no-repeat;
+  background-size: cover;
+  left: 10px;
+  /* &:hover{
+    		background:green;
+    	}; */
+}
+#top i:active {
+  background: url(../images/icon/1.png) center center no-repeat;
+  background-size: cover;
+}
+#check-main {
+  width: 94%;
+  margin: 0 auto;
+}
+#check-main dl {
+  border-bottom: 1px solid #888;
+  overflow: hidden;
+  -webkit-border-radius: 8px;
+  -o-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -moz-border-radius: 8px;
+  border-radius: 8px;
+  margin-top: 12px;
+  background:white;
+}
+#check-main dl .show {
+  display: block;
+}
+#check-main dl span.bottom {
+  margin-top: 2px;
+  height: 36px;
+  width: 100%;
+}
+#check-main dl span.bottom a {
+  display: block;
+  float: left;
+  width: 50%;
+  height: 100%;
+  text-align: center;
+  line-height: 30px;
+  background-color: white;
+  margin: 0;
+  padding: 0;
+  border: none;
+  font-size: 1.2em;
+  font-weight: bolder;
+  text-decoration: none;
+  padding:0;
+  margin-bottom:1px;
+
+}
+#check-main dl span.bottom a button{
+	width:100%;
+	height:36px;
+	margin:0;
+	padding:0;
+	border:none;
+}
+#check-main dl span.bottom a:hover {
+  /* background-color: blue; */
+}
+#check-main dl div.top {
+  width: 100%;
+  position: relative;
+}
+#check-main dl div.top h4 {
+  display: block;
+  width: 100%;
+  height: 44px;
+  line-height: 44px;
+  text-align: left;
+  text-indent: 10px;
+  font-weight: bolder;
+  background-color: #39f;
+  border-radius:4px 4px 0px 0px;
+  -webkit-border-radius:4px 4px 0px 0px;
+  -o-border-radius:4px 4px 0px 0px;
+  -moz-border-radius:4px 4px 0px 0px;
+  -ms-border-radius:4px 4px 0px 0px;
+  
+}
+#check-main dl div.top ul {
+  width: 100%;
+  
+}
+#check-main dl div.top ul li {
+  width: 100%;
+  min-height: 30px;
+  line-height: 30px;
+  text-indent: 2px;
+  /* overflow:hidden; */
+}
+#check-main dl div.top ul li:last-child{
+	margin-bottom:4px;
+}
+#check-main dl div.top ul li label {
+  height: 30px;
+  padding: 0px;
+  font-weight: bold;
+  display:inline-block;
+  width:88px;
+  text-align:right;
+}
+#check-main dl div.top ul li input {
+  vertical-align: middle;
+  height: 80%;
+  border: none;
+  width: 68%;
+  padding:0px 0px;
+  float:right;
+  margin-right:2%;
+  line-height:30px;
+  font-size:1.04em;
+}
+.suggest_ul,.suggest_ulc{
+	z-index:1000;
+	background:white;
+	position:absolute;
+	width:50%;
+	left:92px;
+	top:100%;
+	max-height:120px;
+	overflow:auto;
+}
+.suggest_ul li,.suggest_ulc li{
+	font-size:0.8em;
+}
+#sub{
+	width:32%; 
+	height:100%; 
+	border-radius:3px;
+	background:#39f;
+	margin-top:32px;
+}
+#searchSuggest  div#btncheck{
+	width:36%;
+	margin-top:20px;
+}
+#searchSuggest  div#btncheck input{
+	width:100%;
+	height:60%;
+	-webkit-border-radius:8px;
+	-o-border-radius:8px;
+	-moz-border-radius:8px;
+	-ms-border-radius:8px;
+	border-radius:8px;
+	background:#39f;
+	display:block;
+	margin:0 auto;
+	float:left;
+}
+#top-face{
+	position:fixed; 
+	display:none;
+	background:#333; 
+	width:80%; 
+	padding:10px 4px;
+	-webkit-border-radius: 8px;
+	-o-border-radius: 8px;
+	-ms-border-radius: 8px;
+	-moz-border-radius: 8px;
+	border-radius: 8px;
+	top:30%;
+	bottom:30%;
+	text-align:center;
+	color:white;
+	left:0;
+	right:0;
+	margin:auto auto; 
+	border:1px solid #333;
+	z-index:1000;
+	opacity:0.9;
+}
